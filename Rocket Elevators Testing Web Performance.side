@@ -1,0 +1,85 @@
+{
+  "id": "1cc15c59-e03f-49b6-a6a4-e98766d10cc3",
+  "version": "2.0",
+  "name": "Rocket Elevators Testing Web Performance",
+  "url": "",
+  "tests": [{
+    "id": "e3171b35-95ba-4033-9d98-d39c268f25cc",
+    "name": "Navigation through the website",
+    "commands": []
+  }, {
+    "id": "dfd80cff-4d29-4559-b02e-fd6f92443926",
+    "name": "Filling out the quote form",
+    "commands": []
+  }, {
+    "id": "29426e5c-5fd1-4e52-b14e-423b70b54e87",
+    "name": "Filling out the contact form",
+    "commands": []
+  }, {
+    "id": "be63f79b-d2d9-4bb6-b025-cdc69a26cfa3",
+    "name": "Validation of the contact form",
+    "commands": []
+  }, {
+    "id": "562bca8d-67c4-40eb-9c1f-243c3522c12b",
+    "name": "Website's layout",
+    "commands": []
+  }, {
+    "id": "768794bc-69f0-49e5-879f-4681c0e5eb5a",
+    "name": "Link of the index navbar",
+    "commands": []
+  }, {
+    "id": "c57cd301-bf9a-49c9-9892-5c97fa4f740a",
+    "name": "Link of the residential navbar",
+    "commands": []
+  }, {
+    "id": "4191ae0e-f8b5-48bc-ae75-4155093e77ea",
+    "name": "Link of the commercial navbar",
+    "commands": []
+  }, {
+    "id": "386de925-5ca3-46e4-8ceb-5f089dabbb29",
+    "name": "Link of the quote navbar",
+    "commands": []
+  }, {
+    "id": "555ca9ad-08e5-4d23-85fa-b0dd7b0c9768",
+    "name": "Agent table by sorting, filtering",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "f061aee6-37b8-444d-9f1c-3c265eb4d86d",
+    "name": "Navigating to different pages",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e3171b35-95ba-4033-9d98-d39c268f25cc"]
+  }, {
+    "id": "0310b0e0-9713-4228-a947-093ab78e9366",
+    "name": "Filling out forms and submitting data",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["29426e5c-5fd1-4e52-b14e-423b70b54e87", "dfd80cff-4d29-4559-b02e-fd6f92443926"]
+  }, {
+    "id": "004110ad-5b5c-4d75-8057-7174792fbbb9",
+    "name": "Testing form Validation",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["be63f79b-d2d9-4bb6-b025-cdc69a26cfa3"]
+  }, {
+    "id": "d664337e-b5a3-4368-b1ef-c4cfd03786f8",
+    "name": "Testing responsiveness and cross-browser compatibility",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["562bca8d-67c4-40eb-9c1f-243c3522c12b"]
+  }, {
+    "id": "5442000d-de3b-47bd-913a-5d146dcfde06",
+    "name": "Automating repetitive tasks",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4191ae0e-f8b5-48bc-ae75-4155093e77ea", "768794bc-69f0-49e5-879f-4681c0e5eb5a", "386de925-5ca3-46e4-8ceb-5f089dabbb29", "c57cd301-bf9a-49c9-9892-5c97fa4f740a", "555ca9ad-08e5-4d23-85fa-b0dd7b0c9768"]
+  }],
+  "urls": [],
+  "plugins": []
+}
